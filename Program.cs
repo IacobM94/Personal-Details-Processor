@@ -68,7 +68,7 @@ namespace Personal_Details_Processor
             File.WriteAllText(jsonPath, json);
 
 
-            Console.WriteLine("\nContacts Parsed!\nJSON file generated!\nPress any key to continue...");
+            Console.WriteLine("\nContacts Parsed!\nJSON file generated in /bin/docs folder!\nPress any key to continue...");
             Console.ReadKey();
 
         }
